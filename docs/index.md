@@ -1,17 +1,30 @@
-# Welcome to MkDocs
+![Hugo Schérer](img/NSERC_Scherer_Hugo.jpg){align="right": style="float:right;height:250px"}
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+# Hugo Schérer
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Welcome to my website!
 
-## Project layout
+Learn [about me](about/index.md).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Learn more about [my research](research/index.md).
+
+## External links
+
+[Research group website](https://katelinschutz.com/group)
+
+[INSPIRE](https://inspirehep.net/authors/2050860)
+
+[arXiv](https://arxiv.org/a/scherer_h_1.html)
+
+## Contact me {: .no_toc}
+
+Send me an e-mail at [hugo.scherer@mail.mcgill.ca](mailto:hugo.scherer@mail.mcgill.ca)
+
+## Affiliations
+
+[![Vanier](img/logo_vanier.png){align="center": style="height:150px"}](https://vanier.gc.ca/en/home-accueil.html)
+
+[![TSI](img/logo_tsi.jpg){align="center": style="height:150px"}](https://tsi.mcgill.ca/)
+
+[![TSI](img/logo_McGill.png){align="center": style="height:100px"}](https://www.physics.mcgill.ca/)

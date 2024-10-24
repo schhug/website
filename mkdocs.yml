@@ -1,1 +1,24 @@
-site_name: My Docs
+site_name: Hugo Schérer
+
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    accent: teal
+  icon:
+    logo: material/star-four-points-outline
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  features:
+    - navigation.tabs
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - About: about/index.md
+  - Research: research/index.md
+  - CV: cv/index.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
