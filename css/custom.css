@@ -1,13 +1,13 @@
 [data-md-color-scheme="light"] {
   --md-primary-fg-color:        #167000; /* Banner */
-  --md-typeset-a-color:         #1E9400; /* Links  1E9400*/
-  --md-accent-fg-color:         #4600BE; /* Links accent 6600CC */
+  --md-typeset-a-color:         #1E9400; /* Links */
+  --md-accent-fg-color:         #4600BE; /* Links accent */
   --md-typeset-color:           #000000; /* Text */
   --md-default-bg-color:        #FFFFFF; /* Background */
 }
 
 [data-md-color-scheme="dark"] {
-  --md-primary-fg-color:        #167000; /* Banner */
+  --md-primary-fg-color:        #167000; /* Banner 00640A vs 167000 */
   --md-typeset-a-color:         #40C71E; /* Links */
   --md-accent-fg-color:         #9261E6; /* Links accent */
   --md-typeset-color:           #F0F0F0; /* Text */
