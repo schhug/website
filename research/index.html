@@ -52,6 +52,8 @@
       
     
     
+      <link rel="stylesheet" href="../css/custom.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -69,7 +71,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-purple">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -127,7 +129,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -137,7 +139,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -437,15 +439,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#published-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      Published work
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#publication-list" class="md-nav__link">
     <span class="md-ellipsis">
       Publication list
@@ -552,18 +545,16 @@
 
 <h1 id="research">Research</h1>
 <h2 id="research-interests">Research interests</h2>
-<p><strong>Dark Matter</strong> - I'm interested in searching of the nature of dark matter! I'm working on the phenomenology side of things, trying to find signatures or place bounds on dark matter models, or on physics beyond the Standard Model in general. These days I'm thinking a lot about the dark photon as a potential dark sector candidate.</p>
-<p><strong>Cosmology and astrophysics</strong> - I'm interested in cosmology and astrophysics, especially as probes on the nature of dark matter. These days I'm especially thinking about what happens with dark matter during and around Big Bang Nucleosynthesis.</p>
-<p><strong>Finite temperature field theory</strong> - I'm interested in finite-temperature effects on particle behavior, and how they can be used as unique probes of dark matter or physics beyond the Standard Model. The radiation-dominated era of our universe is a great environment for such effects!</p>
+<p><strong>Dark Matter</strong> - I'm interested in searching of the nature of dark matter! My work is theoretical in nature, and focuses on looking for signatures or setting bounds on dark matter models, or more broadly, on physics beyond the Standard Model. These days, I'm especially curious the dark photon as an extension to the Standard Model of particle physics.</p>
+<p><strong>Cosmology and astrophysics</strong> - I'm interested in cosmology and astrophysics, especially as probes on the nature of dark matter. These days I'm particularily focusing on what happens with dark matter around the time of Big Bang Nucleosynthesis, in the early universe.</p>
+<p><strong>Finite temperature field theory</strong> - I'm interested in finite-temperature effects on particle behavior, and how they can be used as unique probes of dark matter or physics beyond the Standard Model. The early universe is a great environment for such effects!</p>
 <h2 id="latest-project">Latest project</h2>
 <p><img :=":" align="right" alt="photon self-energy" src="BS-FeynmanPhotonLoopSmall.png" style="float:right;width:250px" /></p>
-<p>The dispersion relation of photons is modified in a medium, for example in a plasma. This is encoded in the photon self-energy, which can be conceptualized as an effective mass that depends on temperature and charge density. Previous work had focused on the self-energy of real (or on-shell) photons. In this project, I computed the photon self-energy for virtual (or off-shell) photons, including analytical approximations for this quantity!</p>
+<p>In hot and dense environments, like plasmas, the behavior of particles are modified, sometimes in new, qualitatively different ways<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. For example, the photon in a plasma acquires a new longitudinal polarization mode, as well as an effective mass. These are encoded in what we call the <strong>photon self-energy</strong>. Previous work had focused on the self-energy of real (or on-shell) photons, i.e. the ones that propagate through arbitrary distances<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. But the self-energy is also important for virtual (or off-shell) photons, i.e. the ones that are intermediate states in particle physics processes (like scatterings). In this project, I computed the photon self-energy for <strong>off-shell photons</strong>. This includes analytical approximations for the self energy as a function of temperature and electron density!</p>
 <p>Find the paper on the arXiv <a href="https://arxiv.org/abs/2405.18466">here</a>!</p>
-<h2 id="published-work">Published work</h2>
-<p>Find it on <a href="https://inspirehep.net/authors/2050860">INSPIRE</a> or <a href="https://arxiv.org/a/scherer_h_1.html">arXiv</a>.</p>
-<p>You'll find that I've worked previously on exactly solvable mathematical physicics models and orthogonal polynomials!</p>
 <h2 id="publication-list">Publication list</h2>
-<p>Here is a list of all my publications in physics so far.</p>
+<p>Here is a list of all my publications in physics. You can also my published work on <a href="https://inspirehep.net/authors/2050860">INSPIRE</a> or <a href="https://arxiv.org/a/scherer_h_1.html">arXiv</a>.</p>
+<p>You'll find that I've worked previously on exactly solvable mathematical physicics models and orthogonal polynomials!</p>
 <h3 id="2024">2024</h3>
 <p>Photon self-energy at all temperatures and densities in all of phase space (submitted to JHEP) [<a href="https://arxiv.org/abs/2405.18466">arXiv:2405.18466</a>]</p>
 <h3 id="2022">2022</h3>
@@ -572,6 +563,17 @@
 <h2 id="masters-thesis">Master's thesis</h2>
 <p>I completed my M.Sc. in 2024 at McGill University (Montreal, Canada), supervised by Prof. Katelin Schutz and Prof. Oscar Hernández. It is about finite temperature field theory, and more specifically about the photon self-energy (same as my latest project but with more details!). If you're interested, you can find it here:</p>
 <p><a href="Scherer_Hugo_Physics_thesis_v3.pdf">Finite temperature field theory for the masses (2024)</a></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Georg G. Raffelt Raffelt. <em>Stars as laboratories for fundamental physics: The astrophysics of neutrinos, axions, and other weakly interacting particles</em>. The University of Chicago Press, May 1996. ISBN 0-226-70271-5.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Eric Braaten and Daniel Segel. Neutrino energy loss from the plasma process at all temperatures and densities. <em>Physical Review D</em>, 48:1478–1491, August 1993. <a href="https://arxiv.org/abs/hep-ph/9302213">arXiv:hep-ph/9302213</a>, <a href="https://doi.org/10.1103/PhysRevD.48.1478">doi:10.1103/PhysRevD.48.1478</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
