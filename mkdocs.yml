@@ -1,24 +1,74 @@
-site_name: Hugo Schérer
+# Change to your own name
+site_name: Hugo's Research Page
+# Change to your own site
+site_url: https://schhug.github.io/website/ # must have the trailing slash
+site_author: Your Name (stephan.obrien@mcgill.ca)
+site_description: Research site for Your Name
+copyright: > # should remain a link to the original theme
+  &copy; 2024 Hugo Schérer <br>
+
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
-    primary: deep purple
-    accent: teal
+      # Palette toggle for light mode
+      - scheme: light
+        #primary: custom
+        #accent : deep purple
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+
+      # Palette toggle for dark mode
+      - scheme: dark
+        primary: custom
+        #accent : deep purple
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
   icon:
     logo: material/star-four-points-outline
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
   features:
-    - navigation.tabs
-    - navigation.expand
+    - navigation.instant # some features may not work properly with XHR
+    - navigation.tracking # the URL changes with the active anchor
+    - navigation.tabs # first top-level sections are shown as tabs
+    - navigation.tabs.sticky # tabs always show
+    - navigation.sections # sections are rendered as groups in the sidebar
+    - navigation.expand # all sections are expanded
+    - navigation.indexes # link an index.md page to a section
+    - navigation.top # show back-to-top button
+    - toc.integrate # show table of contents to navigation panel
+    - header.autohide
+    - content.code.annotate
+    - content.code.copy
 
 nav:
   - Home: index.md
   - About: about/index.md
   - Research: research/index.md
+  - Outreach: outreach/index.md
   - CV: cv/index.md
 
 markdown_extensions:
   - attr_list
   - md_in_html
+  - footnotes
+
+# Additional plugins
+plugins:
+    - search
+    # Using jupyter notebook
+    - mkdocs-jupyter:
+          theme: default
+    - bibtex:
+        #bib_file: "/opt/homebrew/bin/bibtex"
+        bib_file: "refs.bib"
+
+extra:
+  favicon: "favicon.ico"  # Replace with your favicon's path
+
+extra_css:
+  - css/custom.css

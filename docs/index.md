@@ -1,13 +1,15 @@
-![Hugo Schérer](img/NSERC_Scherer_Hugo.jpg){align="right": style="float:right;height:250px"}
+![Hugo Schérer](img/NSERC_Scherer_Hugo.jpg){align="right": style="float:right;height:300px"}
 
 
-# Hugo Schérer
+# Hi, I'm Hugo!
 
-Welcome to my website!
+I'm a PhD student in physics and Vanier Scholar at McGill University in Montreal, Canada. I'm supervised by Prof. Katelin Schutz.
 
-Learn [about me](about/index.md).
+Learn more [about me](about/index.md).
 
 Learn more about [my research](research/index.md).
+
+Learn about some [outreach](outreach/index.md) I do.
 
 ## External links
 
@@ -23,8 +25,6 @@ Send me an e-mail at [hugo.scherer@mail.mcgill.ca](mailto:hugo.scherer@mail.mcgi
 
 ## Affiliations
 
-[![Vanier](img/logo_vanier.png){align="center": style="height:150px"}](https://vanier.gc.ca/en/home-accueil.html)
-
-[![TSI](img/logo_tsi.jpg){align="center": style="height:150px"}](https://tsi.mcgill.ca/)
-
-[![TSI](img/logo_McGill.png){align="center": style="height:100px"}](https://www.physics.mcgill.ca/)
+[![Vanier](img/logo_vanier.png){align="center": style="height:80px"}](https://vanier.gc.ca/en/home-accueil.html) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[![TSI](img/logo_TSI.png){align="center": style="height:80px"}](https://tsi.mcgill.ca/)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[![TSI](img/logo_McGill.png){align="center": style="height:50px"}](https://www.physics.mcgill.ca/)
