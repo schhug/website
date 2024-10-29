@@ -6,6 +6,19 @@
   --md-default-bg-color:        #FFFFFF; /* Background */
 }
 
+[data-md-color-scheme="light"] h1 {
+    color: #777777; /* Header 1 */
+}
+[data-md-color-scheme="light"] h2 {
+    color: #111111; /* Header 2 */
+}
+[data-md-color-scheme="light"] h3 {
+    color: #111111; /* Header 3 */
+}
+
+
+
+
 [data-md-color-scheme="dark"] {
   --md-primary-fg-color:        #167000; /* Banner 00640A vs 167000 */
   --md-typeset-a-color:         #40C71E; /* Links */
@@ -13,3 +26,15 @@
   --md-typeset-color:           #F0F0F0; /* Text */
   --md-default-bg-color:        #111111; /* Background */
 }
+
+[data-md-color-scheme="dark"] h1 {
+    color: #F0F0F0; /* Header 1 */
+}
+[data-md-color-scheme="dark"] h2 {
+    color: #F0F0F0; /* Header 2 */
+}
+[data-md-color-scheme="dark"] h3 {
+    color: #F0F0F0; /* Header 3 */
+}
+
+/* https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss */
