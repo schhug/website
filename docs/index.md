@@ -1,4 +1,4 @@
-![Hugo Schérer](img/NSERC_Scherer_Hugo.jpg){align="right": style="float:right;height:300px"}
+<!-- ![Hugo Schérer](img/NSERC_Scherer_Hugo.jpg){align="right": style="float:right;height:300px"} -->
 
 
 # Hi, I'm Hugo!
@@ -8,8 +8,6 @@ I'm a PhD student in physics and Vanier Scholar at McGill University in Montreal
 Learn more [about me](about/index.md).
 
 Learn more about [my research](research/index.md).
-
-Learn about some [outreach](outreach/index.md) I do.
 
 ## External links
 

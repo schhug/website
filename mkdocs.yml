@@ -5,7 +5,7 @@ site_url: https://schhug.github.io/website/ # must have the trailing slash
 site_author: Your Name (stephan.obrien@mcgill.ca)
 site_description: Research site for Your Name
 copyright: > # should remain a link to the original theme
-  &copy; 2024 Hugo Schérer <br>
+  &copy; 2025 Hugo Schérer <br>
 
 
 theme:
@@ -49,7 +49,6 @@ nav:
   - Home: index.md
   - About: about/index.md
   - Research: research/index.md
-  - Outreach: outreach/index.md
   - CV: cv/index.md
 
 markdown_extensions:

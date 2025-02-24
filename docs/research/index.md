@@ -23,7 +23,7 @@ You'll find that I've worked previously on exactly solvable mathematical physici
 
 ### 2024
 
-Photon self-energy at all temperatures and densities in all of phase space (submitted to JHEP) \[[arXiv:2405.18466](https://arxiv.org/abs/2405.18466)\]
+[Photon self-energy at all temperatures and densities in all of phase space](https://doi.org/10.1007/JHEP11(2024)139) \[[arXiv:2405.18466](https://arxiv.org/abs/2405.18466)\]
 
 ### 2022
 
