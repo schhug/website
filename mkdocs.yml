@@ -49,6 +49,7 @@ nav:
   - Home: index.md
   - About: about/index.md
   - Research: research/index.md
+  - Other Projects: other/index.md
   - CV: cv/index.md
 
 markdown_extensions:

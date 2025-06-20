@@ -9,7 +9,7 @@
 **Finite temperature field theory** - I'm interested in finite-temperature effects on particle behavior, and how they can be used as unique probes of dark matter or physics beyond the Standard Model. The early universe is a great environment for such effects!
 
 ## Latest project
-![photon self-energy](BS-FeynmanPhotonLoopSmall.png){align="right": style="float:right;width:250px"}
+![photon self-energy](photon_self_energy.png){align="right": style="float:right;width:250px"}
 
 In hot and dense environments, like plasmas, the behavior of particles are modified, sometimes in new, qualitatively different ways[@raffelt_stars_1996]. For example, the photon in a plasma acquires a new longitudinal polarization mode, as well as an effective mass. These are encoded in what we call the **photon self-energy**. Previous work had focused on the self-energy of real (or on-shell) photons, i.e. the ones that propagate through arbitrary distances[@braaten_neutrino_1993]. But the self-energy is also important for virtual (or off-shell) photons, i.e. the ones that are intermediate states in particle physics processes (like scatterings). In this project, I computed the photon self-energy for **off-shell photons**. This includes analytical approximations for the self energy as a function of temperature and electron density!
 
